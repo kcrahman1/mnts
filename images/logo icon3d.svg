@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="10.8372mm" height="10.8372mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1083.72 1083.72"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="771" font-variant="normal" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="BankGothic Md BT">
+		<font-face-src>
+			<font-face-name name="Bank Gothic Medium BT"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="M" horiz-adv-x="925" d="M130.997 0l0 516.002 97.0015 0 243.334 -312.004 237.5 312.004 96.1657 0 0 -516.002 -111.001 0 0 318.836c0,6.16417 0.33665,14 1.16666,23.3333 0.83582,9.49584 2.00248,19.9958 3.16915,31.8308 -6.50082,-13.3325 -12.1658,-24.3316 -17.0008,-32.9975 -4.9975,-8.67163 -9.33332,-15.6716 -13.1642,-21.1683l-194.003 -257.833 -23.8325 0 -194.496 258.663c-7.16831,9.83829 -13.3383,19.0033 -18.3358,27.6691 -5.00331,8.66582 -9.16499,17.0008 -12.5025,25.1675 1.00414,-10.8366 1.83416,-20.5008 2.33333,-29.3349 0.49917,-8.83415 0.667495,-17.1633 0.667495,-25.33l0 -318.836 -97.0015 0z"/>
+   <glyph unicode="S" horiz-adv-x="808" d="M579.002 426.001l-338.002 0 0 -111.001 321.831 0c50.6658,0 84.6674,-8.66582 102.504,-25.8349 17.8308,-17.3316 26.665,-49.3308 26.665,-96.334l0 -70.9982c0,-46.6666 -8.83415,-78.834 -26.665,-95.9974 -17.8366,-17.1691 -51.8382,-25.8349 -102.504,-25.8349l-318.83 0c-50.5032,0 -84.6674,8.66582 -102.336,25.8349 -17.8308,17.1633 -26.665,49.3308 -26.665,95.9974l0 14.1683 105.998 21.9983 0 -60.9974 365.004 0 0 117.996 -321.999 0c-50.1724,0 -84.0057,8.67163 -101.668,25.8349 -17.5,17.1691 -26.3341,49.1682 -26.3341,96.0032l0 57.1666c0,46.8291 8.83415,78.834 26.3341,96.1657 17.6625,17.1633 51.4958,25.8349 101.668,25.8349l292.995 0c48.5007,0 82.0032,-8.33498 100.333,-24.8366 18.5041,-16.6642 27.6691,-45.9991 27.6691,-88.3299l0 -10.8366 -105.998 -24.9991 0 59.0007z"/>
+   <glyph unicode="T" horiz-adv-x="625" d="M371.998 423.998l0 -423.998 -119.998 0 0 423.998 -237.001 0 0 92.004 594.999 0 0 -92.004 -238 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"BankGothic Md BT";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke:black;stroke-width:16.93;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}
+    .fil0 {fill:black}
+    .fil2 {fill:#FF6600}
+    .fil1 {fill:white}
+    .fnt0 {font-weight:normal;font-size:1722.86px;font-family:'BankGothic Md BT'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="-0" y="-0.02" width="1083.73" height="1083.73"/>
+ </g>
+ <g id="Layer_x0020_1_0">
+  <metadata id="CorelCorpID_1Corel-Layer"/>
+  <g transform="matrix(0.704916 0 0 1 3311.27 -1286.93)">
+   <text x="541.86" y="541.86"  class="fil1 fnt0">M  TS</text>
+  </g>
+  <g id="_2112538331312">
+   <polygon class="fil2" points="379.08,457.58 562.67,972.58 754.19,972.58 972.55,185.32 643.18,724.86 "/>
+   <polygon class="fil1" points="704.61,626.16 521.02,111.16 329.5,111.16 111.14,898.42 440.51,358.89 "/>
+  </g>
+ </g>
+</svg>

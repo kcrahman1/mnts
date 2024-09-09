@@ -388,22 +388,23 @@
   
 	  <!-- All Js -->
 	  <script>
-		$("#submit-form").submit(function (e) {
-		 e.preventDefault(); // Prevent the form from reloading the page
-		  $.ajax({
-			url: "https://script.google.com/macros/s/AKfycbx4g_0bBCfqaBSqeq1XX4eN5dqTwQLnlzvB06LFHo8x-oAB6LDgOj21jORv9qNtoY1a/exec",
-			data: $("#submit-form").serialize(),  // Serialize the form data
-			method: "POST",  // Use POST method to send the data
-			success: function (response) {
-			  alert("Form submitted successfully");  // Display success message
-			  window.location.reload();  // Reload the page
-			  //window.location.href="https://google.com"
-			},
-			error: function (err) {
-			  alert("Something went wrong. Please try again.");  // Display error message
-			},
-		  });
-		});
+		//-----------------google script contact---------------------//
+$("#submit-form").submit((e) => {
+    e.preventDefault();
+    $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbyaS2WPrNihmQ6DWriRi3MtgvumiyyTCasURl_l_lB4xc_XC4I-qQaHrZ-BqmhU3aZlrQ/exec",
+        data: $("#submit-form").serialize(),
+        method: "post",
+        success: function (response) {
+            alert("Form submitted successfully");
+            window.location.reload();
+            //window.location.href="https://google.com"
+        },
+        error: function (err) {
+            alert("Something Error");
+        },
+    });
+});
 	  </script>
 	  <script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

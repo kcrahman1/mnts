@@ -388,19 +388,19 @@
   
 	  <!-- All Js -->
 	  <script>
-		$("#submit-form").submit((e) => {
-		  e.preventDefault();
+		$("#submit-form").submit(function (e) {
+		 e.preventDefault(); // Prevent the form from reloading the page
 		  $.ajax({
 			url: "https://script.google.com/macros/s/AKfycbx4g_0bBCfqaBSqeq1XX4eN5dqTwQLnlzvB06LFHo8x-oAB6LDgOj21jORv9qNtoY1a/exec",
-			data: $("#submit-form").serialize(),
-			method: "post",
+			data: $("#submit-form").serialize(),  // Serialize the form data
+			method: "POST",  // Use POST method to send the data
 			success: function (response) {
-			  alert("Form submitted successfully");
-			  window.location.reload();
+			  alert("Form submitted successfully");  // Display success message
+			  window.location.reload();  // Reload the page
 			  //window.location.href="https://google.com"
 			},
 			error: function (err) {
-			  alert("Something went wrong. Please try again");
+			  alert("Something went wrong. Please try again.");  // Display error message
 			},
 		  });
 		});

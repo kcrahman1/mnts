@@ -320,69 +320,53 @@
 		</div>
 	</section><!--client section end-->
 
-	<!-- Contact starts -->
+	<!-- Contact Us form -->
     <section id="contact" class="contact section-padding">
-		<div class="container mt-1 mb-1">
-		  <div class="row">
-			<div class="col-md-12">
-			  <div class="section-header text-center ">
-				<h2>Contact Us</h2>
-				<p>
-					MOHAMED NIZAM TECHNICAL SERVICES LLC <br>P.O. Box. 82702, Dubai, U.A.E <br>
-					Mob: 971-509626268 <Br>email: techservicesforuae@gmail.com
-				</p>
-			  </div>
-			</div>
-		  </div>
-		  <div class="row m-0" style="margin-top: 100px;">
-			<div class="col-md-12 p-0 pt-2 pb-4">
-			  <form id="submit-form" action="" class="bg-light p-4 m-auto">
-				<div class="row">
-				  <div class="col-md-12">
-					<div class="mb-3">
-					  <input
-						class="form-control"
-						placeholder="Full Name"
-						required=""
-						type="text"
-						name="name"
-					  />
-					</div>
-				  </div>
-				  <div class="col-md-12">
-					<div class="mb-3">
-					  <input
-						class="form-control"
-						placeholder="Email"
-						required=""
-						type="email"
-						name="email"
-					  />
-					</div>
-				  </div>
-				  <div class="col-md-12">
-					<div class="mb-3">
-					  <textarea
-						class="form-control"
-						placeholder="Message"
-						required=""
-						rows="3"
-						name="message"
-					  ></textarea>
-					</div>
-				  </div>
-				  <button
-					class="btn btn-danger btn-lg btn-block mt-3"
-					type="submit"
-				  >
-					Send Now
-				  </button>
-				</div>
-			  </form>
-			</div>
-		  </div>
-		</div>
-	  </section>
+      <div class="container mt-1 mb-1">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center ">
+              <h2>Contact Us</h2>
+              <p>
+                MOHAMED NIZAM TECHNICAL SERVICES LLC <br>P.O. Box. 82702, Dubai, U.A.E <br>
+                Mob: 971-509626268 <br>Email: techservicesforuae@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row m-0" style="margin-top: 100px;">
+          <div class="col-md-12 p-0 pt-2 pb-4">
+            <form id="submit-form" class="bg-light p-4 m-auto">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input class="form-control" placeholder="Full Name" required="" type="text" name="name" />
+                  </div>
+                </div>
+    
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <input class="form-control" placeholder="Email" required="" type="email" name="email" />
+                  </div>
+                </div>
+    
+                <div class="col-md-12">
+                  <div class="mb-3">
+                    <textarea class="form-control" placeholder="Message" required="" rows="3" name="message"></textarea>
+                  </div>
+                </div>
+    
+                <!-- Hidden input for website name -->
+                <input type="hidden" name="website" value="MNTS UAE" />
+    
+                <button class="btn btn-danger btn-lg btn-block mt-3" type="submit">Send Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 	  <!-- contact ends -->
 
 	  <!-- footer starts -->
@@ -416,7 +400,7 @@
 			  //window.location.href="https://google.com"
 			},
 			error: function (err) {
-			  alert("Something Error");
+			  alert("Something went wrong. Please try again");
 			},
 		  });
 		});

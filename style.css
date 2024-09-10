@@ -1,52 +1,64 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 * {
-	font-family: 'Montserrat', sans-serif; }
+	font-family: 'Montserrat', sans-serif;
+}
 
 
 body {
 	background: #fcf0e9;
-	
+
 }
 
 
-.whatsapp{
+.whatsapp {
 	position: fixed;
 	bottom: 20px;
 	right: 5px;
 	z-index: 2;
 }
+
 .logo {
-	transform: translateY(-2px)	/*----logo bottom adj--------*/	
-	
+	transform: translateY(-2px)
+		/*----logo bottom adj--------*/
+
 }
-.ntext{      /*----title mnts style adj--------*/
-	color: #ff7810;	
+
+.ntext {
+	/*----title mnts style adj--------*/
+	color: #ff7810;
 }
-.mntstext{
+
+.mntstext {
 	margin-left: 5px;
 }
-.nav-link{
+
+.nav-link {
 	font-size: 12px;
 	text-transform: uppercase;
 	color: aliceblue;
 }
+
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
-.service-title{
+
+.service-title {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 300;
 	color: #efd96b;
 }
-.lead{
+
+.lead {
 	font-size: 14px;
 }
 
 .services .card-body i {
-	font-size: 35px;/*---services icon---*/
+	font-size: 35px;
+	/*---services icon---*/
 }
+
 .client .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
@@ -54,58 +66,95 @@ body {
 
 
 
-.pala {background-color: rgb(39, 31, 31); color: aliceblue; font-size: 70px;
-color: #ffffff;
-}/*about us fond style*/
+.pala {
+	background-color: rgb(39, 31, 31);
+	color: aliceblue;
+	font-size: 70px;
+	color: #ffffff;
+}
+
+/*about us fond style*/
 
 
 .section-padding {
-	padding-top: 100px;/* page layout aling*/
-	
+	padding-top: 100px;
+	/* page layout aling*/
+
+}
+
+.email {
+	font-size: 8px;
+	display: inline-block;
+	/* Ensures the email address is centered */
+}
+
+/* For WebKit browsers (e.g., Safari) */
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* For other browsers, you can use standard properties */
+body {
+	font-smooth: antialiased;
+	/* This is non-standard and not supported everywhere */
+	text-rendering: optimizeLegibility;
+	/* This can improve readability in some cases */
 }
 
 
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px){
-	.card {margin-bottom: 30px;}/*----card bottom adj--------*/
-	.about-text{margin-top: 30px;}	
-}/*----media 767 section end--------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.card {
+		margin-bottom: 30px;
+	}
+
+	/*----card bottom adj--------*/
+	.about-text {
+		margin-top: 30px;
+	}
+}
+
+/*----media 767 section end--------*/
 
 @media only screen and (max-width: 767px) {
-    .card {
-        margin-bottom: 30px; /*----card bottom adj--------*/		
-    }
-	.about-text{margin-top: 30px;}
+	.card {
+		margin-bottom: 30px;
+		/*----card bottom adj--------*/
+	}
 
-    .section-padding {
-        padding: 10px 0; /* page layout aling */
-    }
-	.cawo{
+	.about-text {
+		margin-top: 30px;
+	}
+
+	.section-padding {
+		padding: 10px 0;
+		/* page layout aling */
+	}
+
+	.cawo {
 		margin-top: 50px;
 	}
 
-	
-} /*----media 767 section end--------*/
-@media only screen and (min-width: 991px) and (max-width: 1200px){
+
+}
+
+/*----media 767 section end--------*/
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
 	.about-text p {
 		font-size: 13px;
 	}
 
 
 }
-.cawo{
+
+.cawo {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.50);
 	padding: 1px;
 	margin-top: 50px;
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-			
+
 }
-
-	
-
-                         
-
-

@@ -357,11 +357,6 @@
                   </div>
                 </div>
     
-		<!-- Hidden input for website name -->
-                <input type="hidden" name="website" value="MNTS UAE" />
-                <!-- Hidden email_to id-->
-                <input type="hidden" name="email_to" value="foodkingregency@gmail.com" />
-    
                 <button class="btn btn-danger btn-lg btn-block mt-3" type="submit">Send Now</button>
               </div>
             </form>
@@ -390,22 +385,23 @@
   
 	  <script>
 		//-----------------google script contact---------------------//
-          $("#submit-form").submit((e) => {
-                e.preventDefault();
-                $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbwckx7UYJ6A3hbqXSmXSgJ97wDhgQ3DEjbFRKA7lt5pRhR_HqCGYt4LI17vE8xnTbva4g/exec",
-                data: $("#submit-form").serialize(),
-                method: "post",
-          success: function (response) {
-                alert("Form submitted successfully");
-                window.location.reload();
+     $("#submit-form").submit((e) => {
+          e.preventDefault()
+          $.ajax({
+             url: "https://script.google.com/macros/s/AKfycbwckx7UYJ6A3hbqXSmXSgJ97wDhgQ3DEjbFRKA7lt5pRhR_HqCGYt4LI17vE8xnTbva4g/exec",
+             data: $("#submit-form").serialize(),
+             method: "post",
+             success: function (response) {
+                alert("Form submitted successfully")
+                window.location.reload()
                 //window.location.href="https://google.com"
-              },
-          error: function (err) {
-            alert("Something Error");
              },
-           });
-          });
+             error: function (err) {
+                alert("Something Error")
+
+             }
+         })
+     })
 	  </script>
 	  <script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
